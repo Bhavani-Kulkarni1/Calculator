@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(246, 227, 227);
+  }
+  #heading-container {
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  h1 {
+    color: #393838;
+    font-size: 28px;
+    border-bottom: 2px solid #3e3d3d;
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+  .whole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calculator {
+    width: 300px;
+    border: 2px solid #b2b1b1;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  }
+  #back {
+    width: 323px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+    background-color: rgb(211, 213, 213);
+    
+  }
+
+  
+  #display {
+    width: 93%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 18px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+ button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(172, 162, 162);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .buttons button:hover{
+   background-color: rgb(215, 215, 215);
+  }
+
+#erase{
+ margin-bottom: 10px;
+  }
+#erase:hover{
+ background-color: rgb(228, 123, 123);
+  }
+  #answer:hover{
+    background-color: rgb(138, 235, 138);
+  }
+
+  
